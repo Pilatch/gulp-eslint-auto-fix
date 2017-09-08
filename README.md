@@ -1,6 +1,8 @@
 # Gulp ESLint Auto-Fix
 
-Makes a gulp task that watches your files for changes, and runs them through ESLint's fix function, then overwrites them if they have been fixed. It's good for productivity, helping your team conform to whatever JS style guide you choose without worrying about text editor plugins or additional setup. Heck, you could have different projects using totally different style guides, and your developers won't care whether they have to write semicolons or not.
+Makes a Gulp task that watches your files for changes, runs them through ESLint's fix function, then overwrites them if they have been fixed.
+
+It's good for productivity, helping your team conform to whatever JS style guide you choose without worrying about text editor plugins or additional setup. Heck, you could have different projects using totally different style guides, and your developers won't care whether they have to write semicolons or not.
 
 ## Usage
 
