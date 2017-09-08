@@ -1,5 +1,5 @@
 {
-  "name": "eslint-auto-fix",
+  "name": "gulp-eslint-auto-fix",
   "version": "1.0.0",
   "description": "Makes a Gulp task that watches JavaScript files for changes and uses ESLint to fix their formatting.",
   "main": "index.js",
