@@ -6,9 +6,9 @@ Makes a gulp task that watches your files for changes, and runs them through ESL
 
 In your gulpfile.js, create a task by giving it a name, and an array of file globs to watch like so:
 
-    const eslintAutoFix = require('eslint-auto-fix')
+    const autoFixTask = require('gulp-eslint-auto-fix')
 
-    eslintAutoFix('fix-js', [
+    autoFixTask('fix-js', [
       'app/**/*.js',
       'test/**/*.js'
     ])
