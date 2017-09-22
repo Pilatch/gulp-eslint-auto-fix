@@ -1,14 +1,34 @@
 {
   "name": "gulp-eslint-auto-fix",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Makes a Gulp task that watches JavaScript files for changes and uses ESLint to fix their formatting.",
   "main": "index.js",
   "author": "Ethan B. Martin",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Pilatch/gulp-eslint-auto-fix.git"
+  },
   "license": "MIT",
-  "peerDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-eslint": "^3.0.1",
+  "keywords": [
+    "lint",
+    "eslint",
+    "gulp",
+    "task",
+    "fix",
+    "format",
+    "auto",
+    "auto-format",
+    "auto-fix",
+    "automatically",
+    "watch",
+    "javascript"
+  ],
+  "dependencies": {
     "gulp-if": "^2.0.2",
     "gulp-watch": "^4.3.11"
+  },
+  "peerDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1"
   }
 }

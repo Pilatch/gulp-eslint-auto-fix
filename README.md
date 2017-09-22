@@ -38,7 +38,7 @@ If you don't provide the file globs to watch, it will watch all files ending in 
 
 ## Dependencies
 
-This module has peer dependencies on [Gulp](https://www.npmjs.com/package/gulp), [Gulp-If](https://www.npmjs.com/package/gulp-if), [Gulp-Watch](https://www.npmjs.com/package/gulp-watch) and [ESLint](https://www.npmjs.com/package/gulp-eslint). If you don't already have those installed in your project, add them to your "devDependencies" in package.json. If anything weird is going on, check the version requirements and let me know.
+This module has peer dependencies on [Gulp](https://www.npmjs.com/package/gulp) and [ESLint](https://www.npmjs.com/package/gulp-eslint). If you don't already have those installed in your project, add them to your "devDependencies" in package.json. If anything weird is going on, check the version requirements and let me know.
 
 ## Configuration
 
